@@ -1,5 +1,5 @@
 {% set name = "pdoc" %}
-{% set version = "14.0.0" %}
+{% set version = "14.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   # accepted, I can switch to the follow url:
   # url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   # Until then, I must manually download and check with "openssl sha256 <download file>"
-  sha256: 1d02c832c1b0755dc1b64cfa4d6ce1e2251d8dd307a74cd947ffd60e76d0dd65
+  sha256: fa87026c9297de62cd9106efea525c457701bf4125b7faaf71fab22ca528ab2a
 
 build:
   number: 0
