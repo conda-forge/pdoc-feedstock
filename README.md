@@ -151,4 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@jacksund](https://github.com/jacksund/)
+* [@rtburns-jpl](https://github.com/rtburns-jpl/)
 
