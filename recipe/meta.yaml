@@ -29,8 +29,8 @@ requirements:
     - python >={{ python_min }}
     - jinja2 >=2.11.0
     - pygments >=2.12.0
-    - markupsafe
-    - astunparse
+    - markupsafe >= 1.1.1
+    - markdown2 >=2.5.4
 
 test:
   imports:
